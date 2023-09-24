@@ -18,6 +18,12 @@ class MainActivity : AppCompatActivity() {
     fun display(view: View) {
         binding.info.text = "Android Application Development, Android Security Essentials, and Monetize Android Applications"
     }
+    fun display2(view: View) {
+        binding.info.text = "Second Option"
+    }
+    fun display3(view: View) {
+        binding.info.text = "Third Option"
+    }
 
 
 }
